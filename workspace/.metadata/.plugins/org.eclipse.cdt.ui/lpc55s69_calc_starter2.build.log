@@ -1,0 +1,25 @@
+15:33:02 **** Incremental Build of configuration Debug for project lpc55s69_calc_starter2 ****
+make -r -j4 all 
+Building target: lpc55s69_calc_starter2.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpc55s69_calc_starter2/LPC55S69/mcuxpresso" -Xlinker -Map="lpc55s69_calc_starter2.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T lpc55s69_calc_starter2_Debug.ld -o "lpc55s69_calc_starter2.axf" ./utilities/fsl_assert.o ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/boot_multicore_slave.o ./startup/startup_lpc55s69_cm33_core0.o  ./source/bench.o ./source/calc.o ./source/dsp.o ./source/edit.o ./source/funcs.o ./source/graphics.o ./source/io.o ./source/mma8652fc.o ./source/scan.o ./source/semihost_hardfault.o ./source/solver.o ./source/spread.o ./source/stack.o ./source/sysdep.o ./source/sysdep_pcm.o  ./sdmmc/src/fsl_sd.o ./sdmmc/src/fsl_sdmmc_common.o  ./sdmmc/osa/fsl_sdmmc_osa.o  ./sdmmc/host/fsl_sdmmc_host.o  ./lcd/fonts/fixed12.o ./lcd/fonts/fixed16.o ./lcd/fonts/fixed20.o ./lcd/fonts/fixed24.o ./lcd/fonts/fixed8.o  ./fatfs/source/diskio.o ./fatfs/source/ff.o ./fatfs/source/ffsystem.o ./fatfs/source/ffunicode.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_common_arm.o ./drivers/fsl_ctimer.o ./drivers/fsl_dma.o ./drivers/fsl_flexcomm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2s.o ./drivers/fsl_i2s_dma.o ./drivers/fsl_power.o ./drivers/fsl_powerquad_basic.o ./drivers/fsl_powerquad_data.o ./drivers/fsl_powerquad_filter.o ./drivers/fsl_powerquad_math.o ./drivers/fsl_powerquad_matrix.o ./drivers/fsl_powerquad_transform.o ./drivers/fsl_reset.o ./drivers/fsl_sdif.o ./drivers/fsl_spi.o ./drivers/fsl_sysctl.o ./drivers/fsl_usart.o  ./device/system_LPC55S69_cm33_core0.o  ./component/uart/fsl_adapter_usart.o  ./component/serial_manager/fsl_component_serial_manager.o ./component/serial_manager/fsl_component_serial_port_uart.o  ./component/osa/fsl_os_abstraction_bm.o  ./component/lists/fsl_component_generic_list.o  ./component/i2c/fsl_adapter_flexcomm_i2c.o  ./codec/port/wm8904/fsl_codec_wm8904_adapter.o  ./codec/fsl_codec_common.o ./codec/fsl_codec_i2c.o ./codec/fsl_wm8904.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o  ./LPC55S69/drivers/fsl_power.o    "/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/Debug/lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf.o" -lpower_hardabi
+/usr/local/mcuxpressoide-11.10.0_3148/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.10.0.202311280810/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: warning: lpc55s69_calc_starter2.axf has a LOAD segment with RWX permissions
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:      314520 B       576 KB     53.32%
+            SRAM:       66136 B        96 KB     67.28%
+        CALC_RAM:          0 GB        96 KB      0.00%
+      SRAM_CORE1:       20052 B        48 KB     40.80%
+        SRAM4_PQ:          0 GB        16 KB      0.00%
+           SRAMX:          0 GB        32 KB      0.00%
+         USB_RAM:          0 GB        16 KB      0.00%
+           shmem:          0 GB        16 KB      0.00%
+Finished building target: lpc55s69_calc_starter2.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "lpc55s69_calc_starter2.axf"; # arm-none-eabi-objcopy -v -O binary "lpc55s69_calc_starter2.axf" "lpc55s69_calc_starter2.bin" ; # checksum -p LPC55S69 -d "lpc55s69_calc_starter2.bin";
+   text	   data	    bss	    dec	    hex	filename
+ 312392	   2128	  63576	 378096	  5c4f0	lpc55s69_calc_starter2.axf
+ 
+
+15:33:04 Build Finished. 0 errors, 1 warnings. (took 1s.657ms)
+

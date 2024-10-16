@@ -1,0 +1,19 @@
+18:18:45 **** Incremental Build of configuration Debug for project LPC55S69_Project ****
+make -r -j4 all 
+Building target: LPC55S69_Project.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="LPC55S69_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33+nodsp -mthumb -T LPC55S69_Project_Debug.ld -o "LPC55S69_Project.axf" ./utilities/fsl_assert.o ./utilities/fsl_debug_console.o ./utilities/fsl_str.o  ./startup/boot_multicore_slave.o ./startup/startup_lpc55s69_cm33_core1.o  ./source/LPC55S69_Project.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_common_arm.o ./drivers/fsl_flexcomm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_power.o ./drivers/fsl_reset.o ./drivers/fsl_usart.o  ./device/system_LPC55S69_cm33_core1.o  ./component/uart/fsl_adapter_usart.o  ./component/serial_manager/fsl_component_serial_manager.o ./component/serial_manager/fsl_component_serial_port_uart.o  ./component/lists/fsl_component_generic_list.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o   
+/usr/local/mcuxpressoide-11.10.0_3148/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.10.0.202311280810/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: warning: LPC55S69_Project.axf has a LOAD segment with RWX permissions
+Memory region         Used Size  Region Size  %age Used
+             ram:       18312 B        48 KB     37.26%
+           shmem:          0 GB        16 KB      0.00%
+Finished building target: LPC55S69_Project.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "LPC55S69_Project.axf"; # arm-none-eabi-objcopy -v -O binary "LPC55S69_Project.axf" "LPC55S69_Project.bin" ; # checksum -p LPC55S69 -d "LPC55S69_Project.bin";
+   text	   data	    bss	    dec	    hex	filename
+  11888	      8	   6416	  18312	   4788	LPC55S69_Project.axf
+ 
+
+18:18:51 Build Finished. 0 errors, 1 warnings. (took 6s.83ms)
+

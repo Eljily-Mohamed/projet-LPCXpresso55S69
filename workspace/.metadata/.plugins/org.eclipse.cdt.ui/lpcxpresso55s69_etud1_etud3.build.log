@@ -1,0 +1,209 @@
+14:19:01 **** Incremental Build of configuration Debug for project lpcxpresso55s69_etud1_etud3 ****
+make -r -j4 all 
+Building file: ../utilities/fsl_assert.c
+Building file: ../utilities/fsl_debug_console.c
+Building file: ../utilities/fsl_str.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -D__REDLIB__ -DCPU_LPC55S69JBD100 -DCPU_LPC55S69JBD100_cm33 -DCPU_LPC55S69JBD100_cm33_core0 -DSD_ENABLED -DMCUXPRESSO_SDK -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/board" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/source" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/drivers" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/inc" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/host" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/utilities" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/fatfs/source" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/LPC55S69/drivers" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/device" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/startup" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/uart" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/lists" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/CMSIS" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/osa" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/osa" -O0 -fno-common -g3 -gdwarf-4 -mcpu=cortex-m33 -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../utilities/"= -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"utilities/fsl_assert.d" -MT"utilities/fsl_assert.o" -MT"utilities/fsl_assert.d" -o "utilities/fsl_assert.o" "../utilities/fsl_assert.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -D__REDLIB__ -DCPU_LPC55S69JBD100 -DCPU_LPC55S69JBD100_cm33 -DCPU_LPC55S69JBD100_cm33_core0 -DSD_ENABLED -DMCUXPRESSO_SDK -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/board" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/source" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/drivers" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/inc" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/host" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/utilities" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/fatfs/source" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/LPC55S69/drivers" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/device" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/startup" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/uart" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/lists" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/CMSIS" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/osa" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/osa" -O0 -fno-common -g3 -gdwarf-4 -mcpu=cortex-m33 -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../utilities/"= -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"utilities/fsl_debug_console.d" -MT"utilities/fsl_debug_console.o" -MT"utilities/fsl_debug_console.d" -o "utilities/fsl_debug_console.o" "../utilities/fsl_debug_console.c"
+arm-none-eabi-gcc -std=gnu99 -D__REDLIB__ -DCPU_LPC55S69JBD100 -DCPU_LPC55S69JBD100_cm33 -DCPU_LPC55S69JBD100_cm33_core0 -DSD_ENABLED -DMCUXPRESSO_SDK -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/board" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/source" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/drivers" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/inc" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/host" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/utilities" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/fatfs/source" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/LPC55S69/drivers" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/device" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/startup" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/uart" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/lists" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/CMSIS" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/osa" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/osa" -O0 -fno-common -g3 -gdwarf-4 -mcpu=cortex-m33 -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../utilities/"= -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"utilities/fsl_str.d" -MT"utilities/fsl_str.o" -MT"utilities/fsl_str.d" -o "utilities/fsl_str.o" "../utilities/fsl_str.c"
+Building file: ../startup/boot_multicore_slave.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -D__REDLIB__ -DCPU_LPC55S69JBD100 -DCPU_LPC55S69JBD100_cm33 -DCPU_LPC55S69JBD100_cm33_core0 -DSD_ENABLED -DMCUXPRESSO_SDK -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/board" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/source" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/drivers" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/inc" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/host" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/utilities" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/fatfs/source" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/LPC55S69/drivers" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/device" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/startup" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/uart" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/lists" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/CMSIS" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/osa" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/osa" -O0 -fno-common -g3 -gdwarf-4 -mcpu=cortex-m33 -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../startup/"= -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"startup/boot_multicore_slave.d" -MT"startup/boot_multicore_slave.o" -MT"startup/boot_multicore_slave.d" -o "startup/boot_multicore_slave.o" "../startup/boot_multicore_slave.c"
+Finished building: ../startup/boot_multicore_slave.c
+ 
+Building file: ../startup/startup_lpc55s69_cm33_core0.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -D__REDLIB__ -DCPU_LPC55S69JBD100 -DCPU_LPC55S69JBD100_cm33 -DCPU_LPC55S69JBD100_cm33_core0 -DSD_ENABLED -DMCUXPRESSO_SDK -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/board" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/source" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/drivers" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/inc" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/host" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/utilities" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/fatfs/source" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/LPC55S69/drivers" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/device" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/startup" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/uart" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/lists" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/CMSIS" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/sdmmc/osa" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_etud1_etud3/component/osa" -O0 -fno-common -g3 -gdwarf-4 -mcpu=cortex-m33 -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fmerge-constants -fmacro-prefix-map="../startup/"= -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"startup/startup_lpc55s69_cm33_core0.d" -MT"startup/startup_lpc55s69_cm33_core0.o" -MT"startup/startup_lpc55s69_cm33_core0.d" -o "startup/startup_lpc55s69_cm33_core0.o" "../startup/startup_lpc55s69_cm33_core0.c"
+In file included from ../utilities/fsl_assert.c:11:
+../utilities/fsl_debug_console.h:37:8: error: unknown type name 'serial_handle_t'
+   37 | extern serial_handle_t g_serialHandle; /*!< serial manager handle */
+      |        ^~~~~~~~~~~~~~~
+In file included from ../utilities/fsl_str.c:15:
+../utilities/fsl_debug_console.h:37:8: error: unknown type name 'serial_handle_t'
+   37 | extern serial_handle_t g_serialHandle; /*!< serial manager handle */
+      |        ^~~~~~~~~~~~~~~
+In file included from ../utilities/fsl_debug_console.c:56:
+../utilities/fsl_debug_console.h:37:8: error: unknown type name 'serial_handle_t'
+   37 | extern serial_handle_t g_serialHandle; /*!< serial manager handle */
+      |        ^~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.h:120:63: error: unknown type name 'serial_port_type_t'
+  120 | status_t DbgConsole_Init(uint8_t instance, uint32_t baudRate, serial_port_type_t device, uint32_t clkSrcFreq);
+      |                                                               ^~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:235:5: error: unknown type name 'serial_handle_t'
+  235 |     serial_handle_t serialHandle; /*!< serial manager handle */
+      |     ^~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:244:5: error: expected specifier-qualifier-list before 'SERIAL_MANAGER_BLOCK_HANDLE_DEFINE'
+  244 |     SERIAL_MANAGER_BLOCK_HANDLE_DEFINE(serialHandleBuffer);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.h:120:63: error: unknown type name 'serial_port_type_t'
+  120 | status_t DbgConsole_Init(uint8_t instance, uint32_t baudRate, serial_port_type_t device, uint32_t clkSrcFreq);
+      |                                                               ^~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.h:120:63: error: unknown type name 'serial_port_type_t'
+  120 | status_t DbgConsole_Init(uint8_t instance, uint32_t baudRate, serial_port_type_t device, uint32_t clkSrcFreq);
+      |                                                               ^~~~~~~~~~~~~~~~~~
+make[1]: *** [utilities/subdir.mk:26: utilities/fsl_assert.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [utilities/subdir.mk:26: utilities/fsl_str.o] Error 1
+../utilities/fsl_debug_console.c:260:1: error: unknown type name 'serial_handle_t'
+  260 | serial_handle_t g_serialHandle; /*!< serial manager handle */
+      | ^~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c: In function 'DbgConsole_ReadOneCharacter':
+../utilities/fsl_debug_console.c:433:5: error: unknown type name 'serial_manager_status_t'
+  433 |     serial_manager_status_t status = kStatus_SerialManager_Error;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../startup/startup_lpc55s69_cm33_core0.c
+ 
+../utilities/fsl_debug_console.c:433:38: error: 'kStatus_SerialManager_Error' undeclared (first use in this function)
+  433 |     serial_manager_status_t status = kStatus_SerialManager_Error;
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:433:38: note: each undeclared identifier is reported only once for each function it appears in
+../utilities/fsl_debug_console.c:440:14: warning: implicit declaration of function 'SerialManager_ReadBlocking' [-Wimplicit-function-declaration]
+  440 |     status = SerialManager_ReadBlocking(((serial_read_handle_t)&s_debugConsoleState.serialReadHandleBuffer[0]), ch, 1);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:440:43: error: 'serial_read_handle_t' undeclared (first use in this function)
+  440 |     status = SerialManager_ReadBlocking(((serial_read_handle_t)&s_debugConsoleState.serialReadHandleBuffer[0]), ch, 1);
+      |                                           ^~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:440:84: error: 'debug_console_state_struct_t' {aka 'struct _debug_console_state_struct'} has no member named 'serialReadHandleBuffer'
+  440 |     status = SerialManager_ReadBlocking(((serial_read_handle_t)&s_debugConsoleState.serialReadHandleBuffer[0]), ch, 1);
+      |                                                                                    ^
+../utilities/fsl_debug_console.c:442:9: error: 'kStatus_SerialManager_Success' undeclared (first use in this function)
+  442 |     if (kStatus_SerialManager_Success != status)
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:444:19: error: 'serial_manager_status_t' undeclared (first use in this function)
+  444 |         status = (serial_manager_status_t)kStatus_Fail;
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:444:43: error: expected ';' before 'kStatus_Fail'
+  444 |         status = (serial_manager_status_t)kStatus_Fail;
+      |                                           ^~~~~~~~~~~~
+      |                                           ;
+../utilities/fsl_debug_console.c:450:43: error: expected ';' before 'kStatus_Success'
+  450 |         status = (serial_manager_status_t)kStatus_Success;
+      |                                           ^~~~~~~~~~~~~~~
+      |                                           ;
+../utilities/fsl_debug_console.c: In function 'DbgConsole_SendData':
+../utilities/fsl_debug_console.c:542:24: warning: implicit declaration of function 'SerialManager_WriteBlocking' [-Wimplicit-function-declaration]
+  542 |     status = (status_t)SerialManager_WriteBlocking(
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:543:11: error: 'serial_write_handle_t' undeclared (first use in this function)
+  543 |         ((serial_write_handle_t)&s_debugConsoleState.serialWriteHandleBuffer[0]), ch, size);
+      |           ^~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:543:53: error: 'debug_console_state_struct_t' {aka 'struct _debug_console_state_struct'} has no member named 'serialWriteHandleBuffer'
+  543 |         ((serial_write_handle_t)&s_debugConsoleState.serialWriteHandleBuffer[0]), ch, size);
+      |                                                     ^
+../utilities/fsl_debug_console.c: In function 'DbgConsole_SendDataReliable':
+../utilities/fsl_debug_console.c:558:5: error: unknown type name 'serial_manager_status_t'
+  558 |     serial_manager_status_t status;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:568:14: warning: comparison between pointer and integer
+  568 |     if (NULL == g_serialHandle)
+      |              ^~
+../utilities/fsl_debug_console.c:624:39: error: 'serial_write_handle_t' undeclared (first use in this function)
+  624 |         SerialManager_WriteBlocking(((serial_write_handle_t)&s_debugConsoleState.serialWriteHandleBuffer[0]), ch, size);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:624:81: error: 'debug_console_state_struct_t' {aka 'struct _debug_console_state_struct'} has no member named 'serialWriteHandleBuffer'
+  624 |         SerialManager_WriteBlocking(((serial_write_handle_t)&s_debugConsoleState.serialWriteHandleBuffer[0]), ch, size);
+      |                                                                                 ^
+../utilities/fsl_debug_console.c:625:14: error: 'kStatus_SerialManager_Success' undeclared (first use in this function)
+  625 |     return ((kStatus_SerialManager_Success == status) ? (int)size : -1);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c: In function 'DbgConsole_ReadLine':
+../utilities/fsl_debug_console.c:635:14: warning: comparison between pointer and integer
+  635 |     if (NULL == g_serialHandle)
+      |              ^~
+../utilities/fsl_debug_console.c: In function 'DbgConsole_ReadCharacter':
+../utilities/fsl_debug_console.c:701:14: warning: comparison between pointer and integer
+  701 |     if (NULL == g_serialHandle)
+      |              ^~
+../utilities/fsl_debug_console.c: At top level:
+../utilities/fsl_debug_console.c:772:63: error: unknown type name 'serial_port_type_t'
+  772 | status_t DbgConsole_Init(uint8_t instance, uint32_t baudRate, serial_port_type_t device, uint32_t clkSrcFreq)
+      |                                                               ^~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c: In function 'DbgConsole_EnterLowpower':
+../utilities/fsl_debug_console.c:937:5: error: unknown type name 'serial_manager_status_t'
+  937 |     serial_manager_status_t status = kStatus_SerialManager_Error;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:937:38: error: 'kStatus_SerialManager_Error' undeclared (first use in this function)
+  937 |     serial_manager_status_t status = kStatus_SerialManager_Error;
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:938:42: warning: comparison between pointer and integer
+  938 |     if (s_debugConsoleState.serialHandle != NULL)
+      |                                          ^~
+../utilities/fsl_debug_console.c:940:18: warning: implicit declaration of function 'SerialManager_EnterLowpower' [-Wimplicit-function-declaration]
+  940 |         status = SerialManager_EnterLowpower(s_debugConsoleState.serialHandle);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c: In function 'DbgConsole_ExitLowpower':
+../utilities/fsl_debug_console.c:948:5: error: unknown type name 'serial_manager_status_t'
+  948 |     serial_manager_status_t status = kStatus_SerialManager_Error;
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:948:38: error: 'kStatus_SerialManager_Error' undeclared (first use in this function)
+  948 |     serial_manager_status_t status = kStatus_SerialManager_Error;
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:950:42: warning: comparison between pointer and integer
+  950 |     if (s_debugConsoleState.serialHandle != NULL)
+      |                                          ^~
+../utilities/fsl_debug_console.c:952:18: warning: implicit declaration of function 'SerialManager_ExitLowpower' [-Wimplicit-function-declaration]
+  952 |         status = SerialManager_ExitLowpower(s_debugConsoleState.serialHandle);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c: In function 'DbgConsole_Deinit':
+../utilities/fsl_debug_console.c:960:46: warning: comparison between pointer and integer
+  960 |         if (s_debugConsoleState.serialHandle != NULL)
+      |                                              ^~
+../utilities/fsl_debug_console.c:966:19: warning: implicit declaration of function 'SerialManager_CloseWriteHandle' [-Wimplicit-function-declaration]
+  966 |             (void)SerialManager_CloseWriteHandle(
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:967:19: error: 'serial_write_handle_t' undeclared (first use in this function)
+  967 |                 ((serial_write_handle_t)&s_debugConsoleState.serialWriteHandleBuffer[0]));
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:967:61: error: 'debug_console_state_struct_t' {aka 'struct _debug_console_state_struct'} has no member named 'serialWriteHandleBuffer'
+  967 |                 ((serial_write_handle_t)&s_debugConsoleState.serialWriteHandleBuffer[0]));
+      |                                                             ^
+../utilities/fsl_debug_console.c:972:46: warning: comparison between pointer and integer
+  972 |         if (s_debugConsoleState.serialHandle != NULL)
+      |                                              ^~
+../utilities/fsl_debug_console.c:974:19: warning: implicit declaration of function 'SerialManager_CloseReadHandle' [-Wimplicit-function-declaration]
+  974 |             (void)SerialManager_CloseReadHandle(((serial_read_handle_t)&s_debugConsoleState.serialReadHandleBuffer[0]));
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:974:51: error: 'serial_read_handle_t' undeclared (first use in this function)
+  974 |             (void)SerialManager_CloseReadHandle(((serial_read_handle_t)&s_debugConsoleState.serialReadHandleBuffer[0]));
+      |                                                   ^~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:974:92: error: 'debug_console_state_struct_t' {aka 'struct _debug_console_state_struct'} has no member named 'serialReadHandleBuffer'
+  974 |             (void)SerialManager_CloseReadHandle(((serial_read_handle_t)&s_debugConsoleState.serialReadHandleBuffer[0]));
+      |                                                                                            ^
+../utilities/fsl_debug_console.c:978:14: warning: comparison between pointer and integer
+  978 |     if (NULL != s_debugConsoleState.serialHandle)
+      |              ^~
+../utilities/fsl_debug_console.c:980:13: error: 'kStatus_SerialManager_Success' undeclared (first use in this function)
+  980 |         if (kStatus_SerialManager_Success == SerialManager_Deinit(s_debugConsoleState.serialHandle))
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:980:46: warning: implicit declaration of function 'SerialManager_Deinit' [-Wimplicit-function-declaration]
+  980 |         if (kStatus_SerialManager_Success == SerialManager_Deinit(s_debugConsoleState.serialHandle))
+      |                                              ^~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:982:46: warning: assignment to 'int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+  982 |             s_debugConsoleState.serialHandle = NULL;
+      |                                              ^
+../utilities/fsl_debug_console.c:983:46: warning: assignment to 'int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+  983 |             g_serialHandle                   = NULL;
+      |                                              ^
+../utilities/fsl_debug_console.c: In function 'DbgConsole_Vprintf':
+../utilities/fsl_debug_console.c:1057:14: warning: comparison between pointer and integer
+ 1057 |     if (NULL != g_serialHandle)
+      |              ^~
+../utilities/fsl_debug_console.c: In function 'DbgConsole_BlockingVprintf':
+../utilities/fsl_debug_console.c:1113:14: warning: comparison between pointer and integer
+ 1113 |     if (NULL == g_serialHandle)
+      |              ^~
+../utilities/fsl_debug_console.c:1126:49: error: 'serial_write_handle_t' undeclared (first use in this function)
+ 1126 |         (status_t)SerialManager_WriteBlocking(((serial_write_handle_t)&s_debugConsoleState.serialWriteHandleBuffer[0]),
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~
+../utilities/fsl_debug_console.c:1126:91: error: 'debug_console_state_struct_t' {aka 'struct _debug_console_state_struct'} has no member named 'serialWriteHandleBuffer'
+ 1126 |         (status_t)SerialManager_WriteBlocking(((serial_write_handle_t)&s_debugConsoleState.serialWriteHandleBuffer[0]),
+      |                                                                                           ^
+make[1]: *** [utilities/subdir.mk:26: utilities/fsl_debug_console.o] Error 1
+make: *** [makefile:54: all] Error 2
+"make -r -j4 all" terminated with exit code 2. Build might be incomplete.
+
+14:19:04 Build Failed. 40 errors, 19 warnings. (took 2s.916ms)
+

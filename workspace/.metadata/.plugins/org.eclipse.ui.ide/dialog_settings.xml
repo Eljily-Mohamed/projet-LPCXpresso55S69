@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpc55s69_calc_starter"/>
+			<item value="/home/mohamed/Desktop/archives/6_10_2024_start_tache2/lpcxpresso55s69_etud1_etud3"/>
+			<item value="/home/mohamed/Desktop/archives/6_10_2024_start_tache2/lpc55s69_3_1"/>
+			<item value="/home/mohamed/Desktop/archives/6_10_2024_start_tache2/lpcxpresso55s69_sdcard_fatfs"/>
+			<item value="/home/mohamed/Desktop/archives/6_10_2024_start_tache2/LPC55S69_Project_M33SLAVE"/>
+			<item value="/home/mohamed/Desktop/archives/6_10_2024_start_tache2/sen_cm33_lab3_i2c"/>
+			<item value="/home/mohamed/Desktop/archives/6_10_2024_start_tache2/lpc55s69_calc_starter"/>
+			<item value="/home/mohamed/Desktop/archives/LPC55S69_Project_M33SLAVE"/>
+			<item value="/home/mohamed/Desktop/archives/lpcxpresso55s69_sdcard_fatfs"/>
+			<item value="/home/mohamed/Desktop/archives/sen_cm33_lab3_i2c"/>
+			<item value="/home/mohamed/Desktop/archives/lpc55s69_calc_starter"/>
+			<item value="/home/mohamed/Desktop/archives/archive_3_tache3_complete/lpc55s69_calc_starter_3"/>
+			<item value="/home/mohamed/Desktop/archives/archive_3_tache3_complete/lpc55s69_calc_starter_3.zip"/>
+			<item value="/home/mohamed/enib/s8/SEN/CM33/archives/projet_cm33-main"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="588"/>
+		<item key="DIALOG_Y_ORIGIN" value="296"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.ui.wizards.new.project"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+</section>

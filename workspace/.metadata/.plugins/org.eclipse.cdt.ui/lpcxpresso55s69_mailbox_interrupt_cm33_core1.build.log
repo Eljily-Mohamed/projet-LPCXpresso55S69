@@ -1,0 +1,41 @@
+18:18:20 **** Incremental Build of configuration Debug for project lpcxpresso55s69_mailbox_interrupt_cm33_core1 ****
+make -r -j4 all 
+Building file: ../source/main_core1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -D__REDLIB__ -DCPU_LPC55S69JBD100 -DCPU_LPC55S69JBD100_cm33_nodsp -DCPU_LPC55S69JBD100_cm33_core1 -DMCUXPRESSO_SDK -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -D__MULTICORE_M33SLAVE -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/source" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/lcd" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/utilities" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/drivers" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/device" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/startup" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/component/uart" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/component/lists" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/CMSIS" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/board" -I"/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/lpcxpresso55s69/driver_examples/mailbox/interrupt/cm33_core1" -O0 -fno-common -g3 -gdwarf-4 -mcpu=cortex-m33+nodsp -c -ffunction-sections -fdata-sections -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m33+nodsp -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/main_core1.d" -MT"source/main_core1.o" -MT"source/main_core1.d" -o "source/main_core1.o" "../source/main_core1.c"
+../source/main_core1.c: In function 'main':
+../source/main_core1.c:206:51: warning: passing argument 1 of 'lcd_draw_segments' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  206 |                                 lcd_draw_segments(shdata,n&0x7FF,(Color)x0);
+      |                                                   ^~~~~~
+In file included from ../source/main_core1.c:13:
+/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/lcd/lcd.h:159:32: note: expected 'SPoint *' {aka 'struct _SPoint *'} but argument is of type 'volatile SPoint *' {aka 'volatile struct _SPoint *'}
+  159 | void lcd_draw_segments(SPoint *p, int n, Color c);
+      |                        ~~~~~~~~^
+../source/main_core1.c:268:27: warning: assignment to 'const uint8_t *' {aka 'const unsigned char *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  268 |                 font.data = (uint16_t)buffer_array[current_buffer_idx].data[0] | ((uint16_t)buffer_array[current_buffer_idx].data[1] << 8);
+      |                           ^
+../source/main_core1.c:295:155: warning: passing argument 4 of 'lcd_draw_string' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  295 |                                                                                                                                 lcd_draw_string(&dc,x0,y0,&buffer_array[current_buffer_idx].data[4]);
+      |                                                                                                                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/lcd/lcd.h:170:64: note: expected 'const char *' but argument is of type 'volatile char *'
+  170 | void lcd_draw_string(DC *dc, int16_t x, int16_t y, const char *s);
+      |                                                    ~~~~~~~~~~~~^
+Finished building: ../source/main_core1.c
+ 
+Building target: lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -no-warn-rwx-segments -Xlinker -Map="lpcxpresso55s69_mailbox_interrupt_cm33_core1.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33+nodsp -mthumb -T lpcxpresso55s69_mailbox_interrupt_cm33_core1_Debug.ld -o "lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf" ./utilities/fsl_assert.o ./utilities/fsl_debug_console.o ./utilities/fsl_memcpy.o ./utilities/fsl_str.o  ./startup/boot_multicore_slave.o ./startup/startup_lpc55s69_cm33_core1.o  ./source/main_core1.o ./source/semihost_hardfault.o  ./lcd/fonts/fixed12.o ./lcd/fonts/fixed16.o ./lcd/fonts/fixed20.o ./lcd/fonts/fixed24.o ./lcd/fonts/fixed8.o  ./lcd/fsl_ili9341.o ./lcd/lcd.o ./lcd/lcd_dpy.o ./lcd/lcd_private.o ./lcd/lcd_ts.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_common_arm.o ./drivers/fsl_ctimer.o ./drivers/fsl_dma.o ./drivers/fsl_flexcomm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2s.o ./drivers/fsl_i2s_dma.o ./drivers/fsl_inputmux.o ./drivers/fsl_power.o ./drivers/fsl_powerquad_basic.o ./drivers/fsl_powerquad_data.o ./drivers/fsl_powerquad_filter.o ./drivers/fsl_powerquad_math.o ./drivers/fsl_powerquad_matrix.o ./drivers/fsl_powerquad_transform.o ./drivers/fsl_reset.o ./drivers/fsl_sdif.o ./drivers/fsl_spi.o ./drivers/fsl_sysctl.o ./drivers/fsl_usart.o  ./device/system_LPC55S69_cm33_core1.o  ./component/uart/fsl_adapter_usart.o  ./component/lists/fsl_component_generic_list.o  ./board/board.o ./board/clock_config.o ./board/pin_mux.o    && arm-none-eabi-objcopy --target elf32-littlearm --verbose --strip-all --remove-section=.ARM.attributes --redefine-sym __vectors_start__=__vectors_start___core_m33slave --keep-symbol __vectors_start___core_m33slave --redefine-sym _data=__start_data_core_m33slave --keep-symbol __start_data_core_m33slave --redefine-sym _edata=__end_data_core_m33slave --keep-symbol __end_data_core_m33slave --remove-section=".bss*" --remove-section=".noinit*" --rename-section .ARM.exidx=".core_m33slave.ARM.exidx" --rename-section .ARM.extab=".core_m33slave.ARM.extab" --rename-section .text=".core_m33slave" --rename-section .data=".core_m33slave.data" --rename-section .data_RAM2=".core_m33slave.data_RAM2" "lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf" "lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf.o" && mcux-fixelf "lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf.o"
+Memory region         Used Size  Region Size  %age Used
+            Ram1:       27316 B        48 KB     55.57%
+           shmem:          0 GB        16 KB      0.00%
+copy from `lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf' [elf32-littlearm] to `lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf.o' [elf32-littlearm]
+Finished building target: lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf"; # arm-none-eabi-objcopy -v -O binary "lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf" "lpcxpresso55s69_mailbox_interrupt_cm33_core1.bin" ; # checksum -p LPC55S69 -d "lpcxpresso55s69_mailbox_interrupt_cm33_core1.bin";
+   text	   data	    bss	    dec	    hex	filename
+  20088	     60	   7168	  27316	   6ab4	lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf
+ 
+
+18:18:22 Build Finished. 0 errors, 3 warnings. (took 1s.999ms)
+

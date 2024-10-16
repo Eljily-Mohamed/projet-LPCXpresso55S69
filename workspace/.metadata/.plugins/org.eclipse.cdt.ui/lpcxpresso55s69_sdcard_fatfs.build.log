@@ -1,0 +1,11 @@
+22:13:53 **** Incremental Build of configuration Debug for project lpcxpresso55s69_sdcard_fatfs ****
+make -r -j4 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "lpcxpresso55s69_sdcard_fatfs.axf"; # arm-none-eabi-objcopy -v -O binary "lpcxpresso55s69_sdcard_fatfs.axf" "lpcxpresso55s69_sdcard_fatfs.bin" ; # checksum -p LPC55S69 -d "lpcxpresso55s69_sdcard_fatfs.bin";
+   text	   data	    bss	    dec	    hex	filename
+  51660	      8	   9680	  61348	   efa4	lpcxpresso55s69_sdcard_fatfs.axf
+ 
+
+22:13:54 Build Finished. 0 errors, 0 warnings. (took 1s.407ms)
+

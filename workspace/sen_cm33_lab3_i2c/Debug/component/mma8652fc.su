@@ -1,0 +1,5 @@
+../component/mma8652fc.c:34:13:i2c_callback	24	static
+../component/mma8652fc.c:43:10:mma8652_init	48	static
+../component/mma8652fc.c:116:10:mma8652_id	48	static
+../component/mma8652fc.c:142:10:mma8652_status	48	static
+../component/mma8652fc.c:169:10:mma8652_read_xyz	56	static

@@ -1,0 +1,14 @@
+../device/system_LPC55S69_cm33_core1.c:60:17:findPll0PreDiv	16	static
+../device/system_LPC55S69_cm33_core1.c:77:17:findPll0PostDiv	16	static
+../device/system_LPC55S69_cm33_core1.c:100:14:findPll0MMult	24	static
+../device/system_LPC55S69_cm33_core1.c:126:17:findPll1PreDiv	16	static
+../device/system_LPC55S69_cm33_core1.c:143:17:findPll1PostDiv	16	static
+../device/system_LPC55S69_cm33_core1.c:166:17:findPll1MMult	16	static
+../device/system_LPC55S69_cm33_core1.c:183:17:GetFro12MFreq	4	static
+../device/system_LPC55S69_cm33_core1.c:192:17:GetFro1MFreq	4	static
+../device/system_LPC55S69_cm33_core1.c:201:17:GetExtClkFreq	4	static
+../device/system_LPC55S69_cm33_core1.c:210:17:GetFroHfFreq	4	static
+../device/system_LPC55S69_cm33_core1.c:219:17:GetOsc32KFreq	4	static
+../device/system_LPC55S69_cm33_core1.c:240:29:SystemInit	8	static
+../device/system_LPC55S69_cm33_core1.c:269:6:SystemCoreClockUpdate	96	static
+../device/system_LPC55S69_cm33_core1.c:370:29:SystemInitHook	4	static

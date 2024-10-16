@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.nxp.mcuxpresso.core.debug.ui.TabListSelectionDialog">
+		<item key="settings.width" value="800"/>
+		<item key="settings.height" value="388"/>
+	</section>
+</section>

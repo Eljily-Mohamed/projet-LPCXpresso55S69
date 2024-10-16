@@ -1,0 +1,10 @@
+../drivers/fsl_clock.h:983:20:CLOCK_EnableClock	24	static
+../drivers/fsl_clock.h:993:20:CLOCK_DisableClock	24	static
+../drivers/fsl_sysctl.c:53:13:SYSCTL_UpdateRegister	24	static
+../drivers/fsl_sysctl.c:60:17:SYSCTL_GetInstance	24	static
+../drivers/fsl_sysctl.c:79:6:SYSCTL_Init	16	static
+../drivers/fsl_sysctl.c:92:6:SYSCTL_Deinit	16	static
+../drivers/fsl_sysctl.c:108:6:SYSCTL_SetShareSet	32	static
+../drivers/fsl_sysctl.c:129:6:SYSCTL_SetFlexcommShareSet	32	static
+../drivers/fsl_sysctl.c:153:6:SYSCTL_SetShareSetSrc	32	static
+../drivers/fsl_sysctl.c:185:6:SYSCTL_SetShareSignalSrc	32	static

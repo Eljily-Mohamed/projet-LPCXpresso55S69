@@ -1,0 +1,7 @@
+../component/uart/usart_adapter.c:115:26:HAL_UartGetStatus	16	static
+../component/uart/usart_adapter.c:216:19:HAL_UartInit	40	static
+../component/uart/usart_adapter.c:284:19:HAL_UartDeinit	24	static
+../component/uart/usart_adapter.c:297:19:HAL_UartReceiveBlocking	32	static
+../component/uart/usart_adapter.c:319:19:HAL_UartSendBlocking	32	static
+../component/uart/usart_adapter.c:340:19:HAL_UartEnterLowpower	16	static
+../component/uart/usart_adapter.c:347:19:HAL_UartExitLowpower	16	static

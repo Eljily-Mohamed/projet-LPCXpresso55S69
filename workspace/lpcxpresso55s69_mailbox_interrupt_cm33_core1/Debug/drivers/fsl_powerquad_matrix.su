@@ -1,0 +1,8 @@
+../drivers/fsl_powerquad_matrix.c:22:6:PQ_MatrixAddition	24	static
+../drivers/fsl_powerquad_matrix.c:35:6:PQ_MatrixSubtraction	24	static
+../drivers/fsl_powerquad_matrix.c:48:6:PQ_MatrixMultiplication	24	static
+../drivers/fsl_powerquad_matrix.c:61:6:PQ_MatrixProduct	24	static
+../drivers/fsl_powerquad_matrix.c:74:6:PQ_VectorDotProduct	24	static
+../drivers/fsl_powerquad_matrix.c:87:6:PQ_MatrixInversion	32	static
+../drivers/fsl_powerquad_matrix.c:106:6:PQ_MatrixTranspose	24	static
+../drivers/fsl_powerquad_matrix.c:117:6:PQ_MatrixScale	32	static

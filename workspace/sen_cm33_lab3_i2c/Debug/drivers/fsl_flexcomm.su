@@ -1,0 +1,15 @@
+../drivers/fsl_clock.h:722:20:CLOCK_EnableClock	24	static
+../drivers/fsl_flexcomm.c:70:13:FLEXCOMM_PeripheralIsPresent	16	static
+../drivers/fsl_flexcomm.c:92:10:FLEXCOMM_GetInstance	24	static
+../drivers/fsl_flexcomm.c:111:17:FLEXCOMM_SetPeriph	24	static
+../drivers/fsl_flexcomm.c:140:10:FLEXCOMM_Init	24	static
+../drivers/fsl_flexcomm.c:160:6:FLEXCOMM_SetIRQHandler	32	static
+../drivers/fsl_flexcomm.c:176:6:FLEXCOMM0_DriverIRQHandler	8	static
+../drivers/fsl_flexcomm.c:185:6:FLEXCOMM1_DriverIRQHandler	8	static
+../drivers/fsl_flexcomm.c:194:6:FLEXCOMM2_DriverIRQHandler	8	static
+../drivers/fsl_flexcomm.c:203:6:FLEXCOMM3_DriverIRQHandler	8	static
+../drivers/fsl_flexcomm.c:212:6:FLEXCOMM4_DriverIRQHandler	8	static
+../drivers/fsl_flexcomm.c:222:6:FLEXCOMM5_DriverIRQHandler	8	static
+../drivers/fsl_flexcomm.c:231:6:FLEXCOMM6_DriverIRQHandler	8	static
+../drivers/fsl_flexcomm.c:240:6:FLEXCOMM7_DriverIRQHandler	8	static
+../drivers/fsl_flexcomm.c:249:6:FLEXCOMM8_DriverIRQHandler	8	static

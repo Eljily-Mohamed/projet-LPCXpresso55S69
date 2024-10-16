@@ -1,0 +1,118 @@
+/**
+fs=32k;f=1k;N=fs/f;t=(0:N-1)/fs;v=sin(2*pi*f*t);
+play(v,fs,1)
+
+fs=32k;f=330;N=fs/f;n=(0:N-1);v=0.9*sin(2*pi*n/N);
+pcmplay(v)
+r=pcmrec(64)
+ **/
+
+## test fft
+s=redim([1,1,1,1],[1,32]);N=length(s);
+S0=N*fft(s);
+S1=pqfft(s);
+S0[1:4],S1[1:4]
+S2=2*pqfft(complex(s));S2[1:4]
+s0=1/N*ifft(S0);
+s1=pqifft(S1);
+s0[1:6],s1[1:6]
+re(s0[1:10]),re(s1[1:10])
+
+s=redim(ones([1,32]),[1,32]);N=length(s);
+S=N*fft(s);
+S1=pqfft(s);
+S[1:4],S1[1:4]
+
+
+S0=polyval(s,exp(-1i*2*pi*(0:N-1)/N))
+S1=pqfft(s);
+S1=pqfft(complex(s))
+s1=pqifft(S1)
+S[1:4],S1[1:4]
+
+s=zeros([1,256]);N=256;
+s[1:6]=[10,30,10,30,-50,70];
+S=N*fft(s);
+
+print
+v=[-32722,-32706,-32690,-32674,0,0,0,0,-26041,-18216,-9742,-792,0,0,0,0,-32722,-32706,-32690,-32674,0,0,0,0,24722,31708,32759,32759,0,0,0,0,32759,32759,32759,32759,0,0,0,0,32759,32759,26000,18177,0,0,0,0,9655,702,-8234,-16825,0,0,0,0,-24769,-31793,-32722,-32706,0,0,0,0]
+
+Test
+cos(pi/3)
+pqcos(pi/3)
+c0=pqcos((0:11)/12*pi)
+c1=cos((0:11)/12*pi)
+
+           -69           -50           -29            -6             0
+             0             0             0            96           104
+           114           117             0             0             0
+Column 16 to 20:
+             0           -69           -50           -29            -6
+Column 21 to 25:
+             0             0             0             0           102
+Column 26 to 30:
+            85            72            52             0             0
+Column 31 to 35:
+             0             0            28             8           -17
+Column 36 to 40:
+           -37             0             0             0             0
+Column 41 to 45:
+           -58           -75           -95          -104             0
+Column 46 to 50:
+             0             0             0          -115          -115
+Column 51 to 55:
+          -114          -112             0             0             0
+Column 56 to 60:
+             0          -100           -86           -71           -51
+Column 61 to 64:
+             0             0             0             0
+
+function tanh(x)
+  a=exp(x); b=exp(-x);
+  return (a-b)/(a+b)
+endfunction
+trace tanh
+c=tanh(1:3)
+<fèche basse>
+<inser>
+> Expression? > a
+<flèche basse>
+c
+
+load demo
+dump test.txt
+2+3
+function f(x)
+  return 2*x+1
+endfunction
+f(1:4)
+dump test.txt
+cat test.txt
+
+x=-1:0.1:3;f="(x-1)^2-2";
+subplot(111);
+setplot([-1,3,-2,2]);
+xgrid(-1:3,1,1,1,16); ygrid(-2:2,1,1,1,16);
+plot(x,f(x),"Fc6")
+xlabel("x");ylabel("y");title(f);
+
+x=-1:0.1:3;f="(x-1)^2-2";
+subplot(111);
+setplot([-1,3,-2,2]);
+plot(x,f(x),"Fc6")
+
+f0=2k;T0=1/f0;t=-T0:T0/12:T0;x=1.2*sin(2*pi*f0*t);
+t1=-T0:T0/20:T0;x1=1.2*sin(2*pi*f0*t1);
+subplot(211);setplot([-T0,T0,-1.5,1.5]);
+xgrid(-0.5m:0.25m:0.5m,1m,1,1,1);ygrid(-1.5:0.5:1.5,1,1,1,1);
+plot(t,x,"F,lb#,c2+");plot(t1,x1,"l-");
+subplot(212);setplot([-T0,T0,-2,2]);
+xgrid(-0.5m:0.25m:0.5m,1m,1,1,1);ygrid(-2:2,1,1,1,1);
+plot(t,x,"F,ls,c1+");plot(t1,x1,"l-");
+
+subplot(211);setplot([-T0,T0,-1.5,1.5]);
+xgrid((-0.5:0.25:0.5)*1m,1m,1,1,1);ygrid(-1.5:0.5:1.5,1,1,1,1);
+plot(t,x,"F,lb,c1+");plot(t1,x1,"l-");
+subplot(212);setplot([-T0,T0,-2,2]);
+xgrid((-0.5:0.25:0.5)*1m,1m,1,1,1);ygrid(-2:2,1,1,1,1);
+plot(t,x,"F,ls#,c6+");plot(t1,x1,"l-");

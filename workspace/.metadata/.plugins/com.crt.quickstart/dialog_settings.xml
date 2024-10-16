@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="/home/mohamed/Desktop/archives/6_10_2024_start_tache2/lpcxpresso55s69_etud1_etud3"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/home/mohamed/Desktop/archives/lpcxpresso55s69_etud1_etud3.zip"/>
+			<item value="/home/mohamed/enib/s8/SEN/CM33/archives/workspace_calc-lpcxpresso55s69_sdcard_fatfs.zip"/>
+			<item value="/home/mohamed/enib/s8/SEN/calc/lpc55s69_calc_starter.zip"/>
+			<item value="/home/mohamed/enib/s8/SEN/calc/sen_cm33lab3_i2c.zip"/>
+		</list>
+	</section>
+	<section name="com.crt.quickstart.views.wizards.examples.QSExampleSelectionPage">
+		<item key="dirname" value="/home/mohamed/Desktop/archives"/>
+	</section>
+</section>

@@ -1,0 +1,3 @@
+../drivers/fsl_clock.h:722:20:CLOCK_EnableClock	24	static
+../drivers/fsl_gpio.c:43:6:GPIO_PortInit	16	static
+../drivers/fsl_gpio.c:84:6:GPIO_PinInit	24	static

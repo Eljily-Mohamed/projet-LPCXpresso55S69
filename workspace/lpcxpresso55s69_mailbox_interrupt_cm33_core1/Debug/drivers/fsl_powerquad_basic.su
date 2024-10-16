@@ -1,0 +1,7 @@
+../drivers/fsl_clock.h:983:20:CLOCK_EnableClock	24	static
+../drivers/fsl_clock.h:993:20:CLOCK_DisableClock	24	static
+../drivers/fsl_powerquad_basic.c:22:6:PQ_GetDefaultConfig	16	static
+../drivers/fsl_powerquad_basic.c:36:6:PQ_SetConfig	16	static
+../drivers/fsl_powerquad_basic.c:51:6:PQ_Init	16	static
+../drivers/fsl_powerquad_basic.c:70:6:PQ_Deinit	16	static
+../drivers/fsl_powerquad_basic.c:79:6:PQ_SetFormat	32	static

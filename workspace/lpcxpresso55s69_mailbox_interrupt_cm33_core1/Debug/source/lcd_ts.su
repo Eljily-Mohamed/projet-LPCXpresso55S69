@@ -1,0 +1,9 @@
+/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpcxpresso55s69_mailbox_interrupt_cm33_core1/drivers/fsl_gpio.h:153:20:GPIO_PinWrite	24	static
+../source/lcd_ts.c:116:13:lcd_ts_write	24	static
+../source/lcd_ts.c:124:13:lcd_ts_read	24	static
+../source/lcd_ts.c:133:13:lcd_ts_read16	24	static
+../source/lcd_ts.c:142:13:map	24	static
+../source/lcd_ts.c:154:9:lcd_ts_get_data	72	static
+../source/lcd_ts.c:227:5:lcd_ts_touched	16	static
+../source/lcd_ts.c:236:6:lcd_ts_id	16	static
+../source/lcd_ts.c:243:6:lcd_ts_init	16	static

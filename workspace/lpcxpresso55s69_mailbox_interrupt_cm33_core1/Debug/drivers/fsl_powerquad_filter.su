@@ -1,0 +1,16 @@
+../drivers/fsl_powerquad.h:1917:20:PQ_BiquadF32	24	static
+../drivers/fsl_powerquad.h:1956:20:PQ_Biquad1F32	24	static
+../drivers/fsl_powerquad_filter.c:22:6:PQ_VectorBiquadDf2F32	48	static
+../drivers/fsl_powerquad_filter.c:47:6:PQ_VectorBiquadDf2Fixed32	40	static
+../drivers/fsl_powerquad_filter.c:69:6:PQ_VectorBiquadDf2Fixed16	40	static
+../drivers/fsl_powerquad_filter.c:91:6:PQ_VectorBiquadCascadeDf2F32	56	static
+../drivers/fsl_powerquad_filter.c:128:6:PQ_VectorBiquadCascadeDf2Fixed32	56	static
+../drivers/fsl_powerquad_filter.c:159:6:PQ_VectorBiquadCascadeDf2Fixed16	56	static
+../drivers/fsl_powerquad_filter.c:190:6:PQ_BiquadBackUpInternalState	32	static
+../drivers/fsl_powerquad_filter.c:222:6:PQ_BiquadRestoreInternalState	56	static
+../drivers/fsl_powerquad_filter.c:272:6:PQ_FIR	24	static
+../drivers/fsl_powerquad_filter.c:291:6:PQ_FIRIncrement	24	static
+../drivers/fsl_powerquad_filter.c:298:6:PQ_BiquadCascadeDf2Init	24	static
+../drivers/fsl_powerquad_filter.c:304:6:PQ_BiquadCascadeDf2F32	32	static
+../drivers/fsl_powerquad_filter.c:344:6:PQ_BiquadCascadeDf2Fixed32	32	static
+../drivers/fsl_powerquad_filter.c:387:6:PQ_BiquadCascadeDf2Fixed16	32	static

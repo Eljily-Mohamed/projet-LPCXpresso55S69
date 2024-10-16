@@ -1,0 +1,6 @@
+../drivers/fsl_powerquad_transform.c:22:6:PQ_TransformCFFT	24	static
+../drivers/fsl_powerquad_transform.c:33:6:PQ_TransformRFFT	24	static
+../drivers/fsl_powerquad_transform.c:53:6:PQ_TransformIFFT	24	static
+../drivers/fsl_powerquad_transform.c:64:6:PQ_TransformCDCT	24	static
+../drivers/fsl_powerquad_transform.c:75:6:PQ_TransformRDCT	24	static
+../drivers/fsl_powerquad_transform.c:94:6:PQ_TransformIDCT	24	static

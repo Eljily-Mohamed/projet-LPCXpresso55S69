@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="path"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="path"/>
+			<item value="lcd_line"/>
+			<item value="path2"/>
+			<item value="cos"/>
+			<item value="wait"/>
+			<item value="clock"/>
+			<item value="sys"/>
+			<item value="sys_"/>
+			<item value="sys_w"/>
+			<item value="sys_wait"/>
+			<item value="pqifft"/>
+			<item value="mcos"/>
+			<item value="test"/>
+			<item value="init_buffer_pool"/>
+			<item value="buffer[buffer_number].is_free = true;"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+			<item value="while (!handshake()) {}"/>
+			<item value="init_buffer"/>
+			<item value="init_point"/>
+			<item value="point"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="0"/>
+		<item key="DIALOG_Y_ORIGIN" value="39"/>
+		<item key="DIALOG_WIDTH" value="357"/>
+		<item key="DIALOG_HEIGHT" value="408"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+</section>

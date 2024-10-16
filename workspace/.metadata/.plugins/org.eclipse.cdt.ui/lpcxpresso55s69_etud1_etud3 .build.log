@@ -1,0 +1,7 @@
+12:56:58 **** Build of configuration Debug for project lpcxpresso55s69_etud1_etud3  ****
+make -r -j4 all 
+make: *** No rule to make target 'all'.  Stop.
+"make -r -j4 all" terminated with exit code 2. Build might be incomplete.
+
+12:56:59 Build Failed. 1 errors, 0 warnings. (took 1s.291ms)
+

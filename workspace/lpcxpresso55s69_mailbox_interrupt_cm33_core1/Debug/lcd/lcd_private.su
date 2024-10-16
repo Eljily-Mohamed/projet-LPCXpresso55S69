@@ -1,0 +1,10 @@
+/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/drivers/fsl_clock.h:983:20:CLOCK_EnableClock	24	static
+../lcd/lcd_private.c:16:17:CTIMER_GetInstance	24	static
+../lcd/lcd_private.c:31:6:wait_ms	24	static
+../lcd/lcd_private.c:48:6:lcd_pin_cfg	16	static
+../lcd/lcd_private.c:185:10:spi_update_cfg	24	static
+../lcd/lcd_private.c:201:6:spi_master_init	24	static
+../lcd/lcd_private.c:235:6:spi_write	32	static
+../lcd/lcd_private.c:246:6:spi_write_byte	16	static
+../lcd/lcd_private.c:255:6:spi_write16	32	static
+../lcd/lcd_private.c:266:6:spi_write16_n	32	static

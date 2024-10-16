@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialog">
+		<item key="DIALOG_X_ORIGIN" value="513"/>
+		<item key="DIALOG_Y_ORIGIN" value="148"/>
+		<item key="DIALOG_WIDTH" value="895"/>
+		<item key="DIALOG_HEIGHT" value="541"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/home/mohamed/Desktop/archives/7_10_2024_start_tache2.zip"/>
+			<item value="/home/mohamed/Desktop/archives/6_10_2024_start_tache2.zip"/>
+			<item value="/home/mohamed/Desktop/archives/archive_3_tache3_complete.zip"/>
+			<item value="/home/mohamed/Desktop/archives/archive_2_tache2_complete.zip"/>
+			<item value="/home/mohamed/Desktop/archives/archive_1_tache1_complete.zip"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpc55s69_calc_starter/source"/>
+			<item value="/home/mohamed/Desktop/archives/6_10_2024_start_tache2/lpc55s69_calc_starter/lcd"/>
+			<item value="/home/mohamed/Desktop/archives/6_10_2024_start_tache2/LPC55S69_Project_M33SLAVE/source"/>
+			<item value="/home/mohamed/Desktop/archives/source"/>
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+	</section>
+</section>

@@ -1,0 +1,3 @@
+../board/peripherals.c:106:13:FLEXCOMM4_init	8	static
+../board/peripherals.c:151:6:BOARD_InitPeripherals	8	static
+../board/peripherals.c:160:6:BOARD_InitBootPeripherals	8	static

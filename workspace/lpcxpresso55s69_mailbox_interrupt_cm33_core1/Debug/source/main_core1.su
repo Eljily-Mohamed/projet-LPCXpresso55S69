@@ -1,0 +1,9 @@
+/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/CMSIS/core_cm33.h:2390:22:__NVIC_EnableIRQ	16	static
+/home/mohamed/apps/MCUXpresso_11.10.0_3148/workspace/lpcxpresso55s69_mailbox_interrupt_cm33_core1/CMSIS/core_cm33.h:2587:22:__NVIC_SetPriority	16	static
+../source/main_core1.c:79:6:mb_init	8	static
+../source/main_core1.c:90:10:mb_pop_evt	16	static
+../source/main_core1.c:98:6:mb_push_evt	16	static
+../source/main_core1.c:119:6:next_event	24	static
+../source/main_core1.c:128:6:MAILBOX_IRQHandler	16	static
+../source/main_core1.c:153:6:init_p	4	static
+../source/main_core1.c:160:5:main	152	static

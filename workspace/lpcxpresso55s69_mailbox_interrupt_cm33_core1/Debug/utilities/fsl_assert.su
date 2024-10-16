@@ -1,0 +1,2 @@
+../utilities/fsl_assert.c:15:28:fsl_assert_hook	24	static
+/usr/local/mcuxpressoide-11.10.0_3148/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.10.0.202311280810/tools/redlib/include/assert.h:28:6:__assertion_failed	24	static

@@ -1,0 +1,11 @@
+14:14:34 **** Incremental Build of configuration Debug for project sen_cm33_lab3_i2c ****
+make -r -j4 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "sen_cm33_lab3_i2c.axf"; # arm-none-eabi-objcopy -v -O binary "sen_cm33_lab3_i2c.axf" "sen_cm33_lab3_i2c.bin" ; # checksum -p LPC55S69 -d "sen_cm33_lab3_i2c.bin";
+   text	   data	    bss	    dec	    hex	filename
+  17132	     12	   8660	  25804	   64cc	sen_cm33_lab3_i2c.axf
+ 
+
+14:14:35 Build Finished. 0 errors, 0 warnings. (took 1s.399ms)
+
