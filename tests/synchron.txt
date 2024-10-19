@@ -1,0 +1,15 @@
+f0=2k;T0=1/f0;t=-T0:T0/12:T0;x=1.2*sin(2*pi*f0*t);
+t1=-T0:T0/20:T0;x1=1.2*sin(2*pi*f0*t1);
+subplot(211);setplot([-T0,T0,-1.5,1.5]);
+xgrid((-0.5:0.25:0.5)*1m,1m,1,1,1);ygrid(-1.5:0.5:1.5,1,1,1,1);
+plot(t,x,"F,lb#,c2+");plot(t1,x1,"l-");
+subplot(212);setplot([-T0,T0,-2,2]);
+xgrid((-0.5:0.25:0.5)*1m,1m,1,1,1);ygrid(-2:2,1,1,1,1);
+plot(t,x,"F,ls,c1+");plot(t1,x1,"l-");
+
+subplot(211);setplot([-T0,T0,-1.5,1.5]);
+xgrid((-0.5:0.25:0.5)*1m,1m,1,1,1);ygrid(-1.5:0.5:1.5,1,1,1,1);
+plot(t,x,"F,lb,c1+");plot(t1,x1,"l-");
+subplot(212);setplot([-T0,T0,-2,2]);
+xgrid((-0.5:0.25:0.5)*1m,1m,1,1,1);ygrid(-2:2,1,1,1,1);
+plot(t,x,"F,ls#,c6+");plot(t1,x1,"l-");

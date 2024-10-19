@@ -1,0 +1,12 @@
+N=512;s=redim([1,1,1,1],[1,N]);
+t0 = time();
+S0=fft(s);
+tpqcos = time() - t0;
+t1 = time();
+S1=pqfft(s);
+tcos = time() - t1;
+t2 = tpqcos * 1000;
+t3 = tcos * 1000;
+t2
+t3
+

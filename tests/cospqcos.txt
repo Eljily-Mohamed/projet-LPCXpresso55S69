@@ -1,0 +1,8 @@
+t0 = time();c0 = pqcos((0:9999)/100*pi);tpqcos = time() - t0;t1 = time();
+c1 = cos((0:999)/1000*pi);
+tcos = time() - t1;
+t2 = tpqcos * 1000;
+t3 = tcos * 1000;
+t2
+t3
+

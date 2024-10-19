@@ -1,0 +1,4 @@
+t0=time();wait(2);t1=time();t3=t1-t0;
+t3 / 1000
+wait(-2)
+wait(10)

@@ -1,0 +1,16 @@
+T0 = 1;n = 50;dt = 0.1;t = 0:dt:(n-1)*dt;
+x=zeros(n);y=zeros(n);z=zeros(n);
+
+for i=1 to n do
+    acc = accel()
+    x[i] = acc[1];
+    y[i] = acc[2];
+    z[i] = acc[3];
+    wait(dt);
+end
+
+subplot(111);setplot([0,3,-2,2]);xgrid(0:3,1,1,1,16); ygrid(-2:2,1,1,1,16);
+title("red:x,purple:y,green:z");xlabel("Temps (s)");ylabel("Accélération (g)");
+plot(t,x,"c6+");plot(t, y, "c3+");plot(t, z, "c8+");
+
+

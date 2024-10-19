@@ -1,0 +1,4 @@
+mkdir demo
+ls
+rm demo
+ls

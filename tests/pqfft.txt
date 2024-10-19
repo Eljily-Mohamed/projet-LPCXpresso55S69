@@ -1,0 +1,16 @@
+N=32;s=redim([1,1,1,1],[1,N]);
+S0=fft(s);
+S1=pqfft(s);
+S0[1:4],S1[1:4]
+epsilon(1e-1);all(S0~=S1)
+f=(-N/2:N/2-1)/N;
+Sf0=abs(S0[N/2+1:N]|S0[1:N/2]);
+Sf1=abs(S1[N/2+1:N]|S1[1:N/2]);
+subplot(211);
+setplot([-0.5,0.5,0,4]);
+xgrid(-0.5:0.25:0.5,1,1,1,1);ygrid(0:0.5:4,1,1,1,1);
+plot(f,Sf0,"F,mx,c6");
+subplot(212);setplot([-0.5,0.5,0,4]);
+xgrid(-0.5:0.25:0.5,1,1,1,1);ygrid(0:0.5:4,1,1,1,1);
+plot(f,Sf1,"F,mx,c6");
+

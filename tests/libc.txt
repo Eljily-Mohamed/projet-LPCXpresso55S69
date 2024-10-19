@@ -1,0 +1,8 @@
+dump test.txt
+2+3
+function f(x)
+return 2*x+1
+endfunction
+f(1:4)
+dump test.txt
+

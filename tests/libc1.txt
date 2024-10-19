@@ -1,0 +1,13 @@
+N=10;x=(0:N-1)/N*2*pi;y=sin(x);
+z=exp(1i*x);
+mwrite(x_y,"mat.txt",0)
+p=mread("mat.txt")
+mwrite(x_y_z,"mat.txt",0)
+p=mread("mat.txt")
+mwrite(x_y_z,"mat.txt",2)
+p=mread("mat.txt")
+
+mwrite(x_y,"mat.bin",1)
+p=mread("mat.bin")
+mwrite(x_y_z,"mat.bin",1)
+p=mread("mat.bin")

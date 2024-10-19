@@ -1,0 +1,5 @@
+N=512;s=redim([1,1,1,1],[1,N]);S0=fft(s);S1=pqfft(s);
+s2=ifft(S0);s3=pqifft(S0);
+epsilon(1e-6);all(s2~=s3)
+s2[1:4]
+s3[1:4]
